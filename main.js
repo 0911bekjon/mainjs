@@ -1,61 +1,26 @@
-// o'zgaruvchilar
-// o'zgaruvchilarni yasash // keys var /let / const
-// o'zgaruvchilarni turlari // types = number / string / bolean = true / false / object undefined / null 
-// console .log .eror .warn .table
-// > < + - / * ** % = ==
-// type off
-
-// 1 punkt
-// key + name = value
+var name = "Джон"
+let admin = name 
 
 
-// var simba = 10;
-// var timon= "salom";
-// var b=timon
+console.log(admin);
+console.log(name);
 
-// var pumba=simba + timon
-// var kopaytiruv=simba * timon
-// var minus=simba - timon
-// var foiz=simba / timon
+// Баланс пользователя
+let balance = 25000
 
-// var c = simba**timon
-// var t =simba%timon
+// Траты
+let car = 4480
+let food = 890
+let cost = car + food
 
-// console.log( 
-//     // timon == simba
-//     // timon === simba
+console.log(cost);
+// Доходы
+let invoice = 5500
+let stock = 4200
 
-//     typeof(simba), typeof(timon), typeof(true)
-//     );
-// console.log (
-//     pumba, kopaytiruv, minus, foiz
-// )
-// age=30
-// age=50
-// console.log(pumba)
-// console.log(b);
+let benefit = invoice + stock
 
-// console.info (age)
-// console.error (age)
-// console.warn (age)
-
-
-
-// a = 15
-
-// var a = 10
-
-// console.log(a)
-
-
-
-// let a = 10
-// a = 15
-
-// console.log(a)
-
-// const a =15
-
-// // a = 16
-
-// console.log(a);
+console.log(benefit);
+// Итоги
+let totalBalance = (balance - cost) + benefit
+console.log(totalBalance);
